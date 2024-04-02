@@ -43,8 +43,8 @@ const Projects = () => {
             description: t('expense-income.desc'),
             badges: ['Next js', 'Tailwind', 'Shadcn', 'Chart js'],
             img: '/expenses-screen.png',
-            href: 'https://github.com/solanodz/income-expense-tracker',
-            github: 'https://income-expense-tracker-sz.vercel.app/'
+            href: 'https://income-expense-tracker-sz.vercel.app/',
+            github: 'https://github.com/solanodz/income-expense-tracker'
         },
     ]
 
