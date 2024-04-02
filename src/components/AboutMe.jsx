@@ -1,4 +1,4 @@
-import { montserrat } from '@/ui/fonts'
+import { montserrat, robotoMono } from '@/ui/fonts'
 import React from 'react'
 import { Button, buttonVariants } from './ui/button'
 import Image from 'next/image'
@@ -15,19 +15,21 @@ const AboutMe = () => {
             <div className="flex-col absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-zinc-950 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_7%,black)]"></div>
             <div className='grid grid-cols-1 md:grid-cols-2 justify-around w-full '>
                 <div className='tracking-tight flex flex-col gap-3 relative font-semibold'>
-                    <h2 className={`${montserrat.className} text-5xl font-bold`}>{t('title')}</h2>
-                    <p>
-                        {t('description-p1')}
-                    </p>
-                    <p>
-                        {t('description-p2')}
-                    </p>
-                    <p>
-                        {t('description-p3')}
-                    </p>
+                    <h2 className={`${montserrat.className} antialiased text-3xl sm:text-5xl font-bold`}>{t('title')}</h2>
+                    <div className={`${robotoMono.className} antialiased font-regular gap-3 text-sm sm:text-md flex flex-col tracking-tighter`}>
+                        <p>
+                            {t('description-p1')}
+                        </p>
+                        <p>
+                            {t('description-p2')}
+                        </p>
+                        <p>
+                            {t('description-p3')}
+                        </p>
+                    </div>
                 </div>
                 <div className='relative text-left sm:my-0 my-6 sm:ml-auto'>
-                    <h2 className="text-3xl sm:text-5xl font-bold text-left sm:text-center">{t('title-2')}</h2>
+                    <h2 className={`${montserrat.className} antialiased text-3xl sm:text-5xl font-bold text-left sm:text-center`}>{t('title-2')}</h2>
                     <div className='flex gap-2 flex-col w-fit my-6'>
                         <Link href='/certificado-frontend.png' target='_blank' className={`${buttonVariants({ variant: 'outline' })} flex flex-row h-fit gap-4 text-left justify-between`}>
                             <Image src="/certificado-frontend.png" alt="Coderhouse" className='w-auto h-20 rounded-sm my-1.5' width={400} height={700} />

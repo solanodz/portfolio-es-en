@@ -6,6 +6,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import MaxWidthWrapper from './MaxWidthWrapper';
 import { useTranslations } from 'next-intl'
 import AnimationFunction from './animations';
+import { montserrat } from '@/ui/fonts';
 
 
 
@@ -51,17 +52,17 @@ const Projects = () => {
     return (
         <section className="flex flex-col gap-6 mt-24 pb-12 min-h-[40rem] h-fit justify-center bg-gradient-to-t dark:from-slate-900 dark:to-zinc-950 from-slate-300 to-white">
             <MaxWidthWrapper>
-                <h2 className="text-5xl my-4 font-bold">{t('title')}</h2>
+                <h2 className={`${montserrat.className} antialiased text-3xl sm:text-5xl my-4 font-bold`}>{t('title')}</h2>
                 <div className="flex flex-col w-full mx-auto gap-6">
                     {data.map((project, index) => (
                         <AnimationFunction
                             key={index}
                         >
                             <div className="rounded-lg border dark:border-zinc-800 border-zinc-300 flex-col absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-zinc-950 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_-100%,black)]"></div>
-                            <div className="tracking-tight flex flex-col gap-3 relative max-w-lg">
-                                <h2 className="text-3xl font-bold">{project.title}</h2>
-                                <p className='text-muted-foreground'>{project.description}</p>
-                                <div className="flex gap-2 flex-row flex-wrap w-fit my-6">
+                            <div className="tracking-tight flex flex-col gap-1 sm:gap-3 relative max-w-lg">
+                                <h2 className="text-xl sm:text-3xl font-bold">{project.title}</h2>
+                                <p className='text-muted-foreground tracking-tight leading-tight text-sm sm:text-md'>{project.description}</p>
+                                <div className="flex gap-2 flex-row flex-wrap w-fit my-3 sm:my-6">
                                     {project.badges.map((badge, index) => (
                                         <Badge variant='default' key={index} className="">{badge}</Badge>
                                     ))}
@@ -72,7 +73,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className="relative text-left ml-auto">
-                                <Image src={project.img} alt={project.title} className="w-auto h-60 border rounded-sm object-cover" width={500} height={250} />
+                                <Image src={project.img} alt={project.title} className="w-auto h-40 sm:h-60 border rounded-sm object-cover" width={500} height={250} />
                             </div>
                         </AnimationFunction>
                     ))}

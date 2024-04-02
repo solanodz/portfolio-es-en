@@ -2,7 +2,7 @@ import React from 'react'
 
 import { TextGenerateEffect } from "@/components/text-generate-effect";
 import { Badge } from "@/components/ui/badge";
-import { grotesk, montserrat } from "@/ui/fonts";
+import { robotoMono, montserrat } from "@/ui/fonts";
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight, FaCss3, FaDiscord, FaNodeJs, FaReact, FaSlack, FaTelegram, FaTrello } from "react-icons/fa";
@@ -25,7 +25,7 @@ const Hero = async () => {
                     </h1>
                     <p className={`${montserrat.className} w-fit mb-2 text-slate-600 dark:text-slate-500 text-md md:text-2xl font-bold tracking-tighter`}>{t('desc')}</p>
 
-                    <div className=" flex-col text-left mr-auto flex text-2xl py-2 gap-4 flex-wrap text-muted-foreground my-2">
+                    <div className=" flex-col text-left mr-auto flex text-lg sm:text-2xl py-2 gap-2 sm:gap-4 flex-wrap text-muted-foreground my-2">
                         <div className='flex gap-2'>
                             <FaCss3 />
                             <SiJavascript />
@@ -56,10 +56,10 @@ const Hero = async () => {
                     width={300}
                     height={300}
                     quality={100}
-                    className="rounded-full md:mr-0 mr-auto md:w-[280px] h-fit w-[120px] ring-2 ring-slate-400 border-4 border-transparent"
+                    className="rounded-full max-w-7xl text-left md:mr-0 mr-auto md:w-[280px] h-fit w-[150px] ring-2 ring-slate-400 drop-shadow-lg border-4 border-transparent"
                 />
             </div>
-            <div className={`${grotesk.className} mt-20 mb-12 tracking-tight font-medium text-sm sm:text-lg leading-tight max-w-md text-right ml-auto`}>
+            <div className={`${robotoMono.className} mt-20 mb-12 tracking-tighter font-semibold text- sm:text-md leading-4 max-w-lg text-right ml-auto`}>
                 <p className="">
                     {t('desc-right')}
                 </p>
@@ -67,7 +67,7 @@ const Hero = async () => {
                     {t('desc-right-2')}
                 </p>
             </div>
-            <div className={`${grotesk.className} flex flex-col font-semibold leading-tight gap-1`}>
+            <div className={`${robotoMono.className} flex flex-col font-semibold leading-tight gap-1`}>
                 <Link className="flex w-fit gap-2 items-center hover:text-slate-600 dark:hover:text-slate-500 hover:gap-5 duration-200" href='https://www.linkedin.com/in/solanodz/' target="_blank">LINKEDIN <FaArrowRight /></Link>
                 <Link className="flex w-fit gap-2 items-center hover:text-slate-600 dark:hover:text-slate-500 hover:gap-5 duration-200" href='https://github.com/solanodz' target="_blank">GITHUB<FaArrowRight /></Link>
                 <Link className="flex w-fit gap-2 items-center hover:text-slate-600 dark:hover:text-slate-500 hover:gap-5 duration-200" href='#' target="_blank">WHATSAPP<FaArrowRight /></Link>

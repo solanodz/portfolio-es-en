@@ -26,9 +26,9 @@ const Navbar = () => {
 
     return (
 
-        <MaxWidthWrapper className=' fixed top-0 right-0 w-full z-50'>
+        <MaxWidthWrapper className='fixed top-0 right-0 w-full z-50'>
             <nav className='border-b fixed top-0 right-0 w-full bg-white dark:bg-zinc-950 dark:bg-opacity-70 bg-opacity-70 backdrop-blur-lg dark:backdrop-blur-lg'>
-                <div className=' flex flex-row justify-between items-center p-2 mx-20'>
+                <div className=' flex flex-row justify-between items-center p-2 mx-5 sm:mx-20'>
                     <div className='flex flex-row items-center'>
                         <LogoTheme />
                     </div>
