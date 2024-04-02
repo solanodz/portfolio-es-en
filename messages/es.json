@@ -9,16 +9,16 @@
         },
         "about-me": {
             "title": "Sobre mí",
-            "description-p1": " Soy desarrollador Full Stack, orientado mas al desarrollo del Frontend. Complete la carrera de Full Stack developer en Coderhouse, la cual me brindo los conocimientos necesarios para comenzar a desarrollarme en el mundo de la programación con el Stack MERN (MongoDB, Express js, React js y Node js).",
+            "description-p1": " Soy desarrollador Full Stack, mas inclinado al desarrollo del Frontend. Completé la carrera de Full Stack developer en Coderhouse, la cual me brindó los conocimientos necesarios para comenzar a desarrollarme en el mundo de la programación con el Stack MERN (MongoDB, Express js, React js y Node js).",
             "description-p2": "Me encanta diseñar y desarrollar sitios web con una identidad única. Siempre estoy en la búsqueda de nuevos desafíos y proyectos que me permitan seguir aprendiendo y creciendo en mi carrera profesional.",
-            "description-p3": "Además, soy profesor de educación física y me desempeñé en el area de la preparación física, lo cual me permitió desarrollar habilidades blandas como el trabajo en equipo, la comunicación y la resolución de problemas de manera eficiente, siempre pensando en el cumplimiento de los objetivos del cliente para la mejora de su rendimeinto o salud.",
+            "description-p3": "Además, soy profesor de educación física y me desempeñé en el area de la preparación física, esto me permitió desarrollar habilidades blandas como el trabajo en equipo, la comunicación y la resolución de problemas de manera eficiente, siempre pensando en el cumplimiento de los objetivos del cliente para la mejora de su rendimeinto o salud.",
             "title-2": "Certificaciones"
         },
         "projects": {
             "title": "Proyectos",
             "birdie": {
                 "title": "Birdie Golfshop",
-                "desc": "Desarrollo del frontend para una plataforma de comercio electrónico especializada en productos de golf utilizando React. Landing page atractiva e intuitiva, un carrito de compras y un proceso de checkout de la compra."
+                "desc": "Desarrollo del frontend para un e-commerce de productos de golf utilizando React. Landing page atractiva e intuitiva, un carrito de compras y un proceso de checkout de la compra."
             },
             "cuspide-gym": {
                 "title": "Cúspide Gym",
