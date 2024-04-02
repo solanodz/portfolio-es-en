@@ -51,7 +51,7 @@ const Hero = async () => {
                     </div>
                 </div>
                 <Image
-                    src="/foto-perfil.jpg"
+                    src="/foto-perfil.png"
                     alt="Solano de Zuasnabar"
                     width={300}
                     height={300}
