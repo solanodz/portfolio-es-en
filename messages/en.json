@@ -1,0 +1,41 @@
+{
+    "index": {
+        "hero": {
+            "hi": "Hi!",
+            "name": "I'm Solano de Zuasnabar",
+            "desc": "Frontend Developer from Argentina",
+            "desc-right": "I am a Fullstack developer, focused on Frontend.",
+            "desc-right-2": "I enjoy the process of designing and developing websites with a unique identity."
+        },
+        "about-me": {
+            "title": "About me",
+            "description-p1": " I'm a Full Stack developer, more focused on Frontend development. I completed the Full Stack Developer program at Coderhouse, which provided me with the necessary knowledge to start developing in the programming world with the MERN Stack (MongoDB, Express.js, React.js, and Node.js).",
+            "description-p2": "I love designing and developing websites with a unique identity. I'm always looking for new challenges and projects that allow me to continue learning and growing in my professional career.",
+            "description-p3": "Additionally, I'm a physical education teacher and have worked in the field of physical preparation, which allowed me to develop soft skills such as teamwork, communication, and efficient problem-solving, always focusing on meeting client objectives for improved performance or health.",
+            "title-2": "Certifications"
+        },
+        "projects": {
+            "title": "Projects",
+            "birdie": {
+                "title": "Birdie Golfshop",
+                "desc": "Frontend development for an e-commerce platform specializing in golf products using React. This involves creating a captivating and user-friendly landing page, a shopping cart, and an efficient checkout process."
+            },
+            "cuspide-gym": {
+                "title": "Cúspide Gym",
+                "desc": "Freelance project for client Cúspide Gym. Website for a gym displaying information about the services offered, schedules, and contact details."
+            },
+            "easy-notes": {
+                "title": "Easy Notes",
+                "desc": "Web application for note-taking with user authentication using Firebase. Implements CRUD operations for notes and a task list feature. Data is stored in Firestore."
+            },
+            "expense-income": {
+                "title": "Expense and Income Tracker",
+                "desc": "Income and Expense Dashboard. Facilitates transaction recording, displays expense and income charts, and provides a comprehensive overview of total balance to efficiently manage finances."
+            },
+            "links": {
+                "web": "Go to the website",
+                "github": "Check the code"
+            }
+        }
+    }
+}
